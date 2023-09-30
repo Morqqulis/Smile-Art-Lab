@@ -19,7 +19,7 @@ const Hero = ({ num, title, text, bgUrl }: IHero) => {
         <div className=" container mx-auto grid max-w-[1400px] grow px-[25px]">
           <div className="hero-content mb-[65px] h-fit max-w-[920px] self-end overflow-hidden rounded-[50px] bg-[#00000080] px-10 py-[45px]">
             <h1
-              className={`text-[44px] font-bold leading-normal text-gg ${merry.className} mb-4 tablets:text-4xl mobile:text-3xl`}
+              className={`text-[44px] font-bold leading-normal text-gg ${merry.className} mb-4 tablets:text-4xl mobile:text-3xl small:text-xl`}
             >
               {title}
             </h1>
