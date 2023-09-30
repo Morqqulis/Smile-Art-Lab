@@ -42,7 +42,7 @@ const Contact: NextPage = () => {
         <div className="mobile:pb-18 mx-auto rounded-[95px] bg-[#F5F4F2] p-[50px] pb-24 tablets:px-5 mobile:pb-10">
           <Image
             className="mx-auto mb-20 h-auto w-full rounded-[60px] mobile:mb-12"
-            src={"/Contact/map.jpg"}
+            src={"/Contact/map.webp"}
             alt="Map Image"
             width={"1440"}
             height={"615"}

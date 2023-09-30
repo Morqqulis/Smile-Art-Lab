@@ -49,7 +49,7 @@ const AboutLab = () => {
           <div className=" justify-self-end tablets:justify-self-auto">
             <Image
               className="max-w-full tablets:w-full"
-              src={"/aboutlab/1.jpg"}
+              src={"/aboutlab/1.webp"}
               alt="About our Lab Image"
               width={645}
               height={645}

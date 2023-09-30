@@ -15,7 +15,7 @@ const Blog: NextPage = () => {
   return (
     <>
       <Hero
-        bgUrl="bg-[url('/hero/bg-6.jpg')] bg-cover"
+        bgUrl="bg-[url('/hero/bg-6.webp')] bg-cover"
         title="Headline - Lorem Ipsum Dolor ..."
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure."
       />
@@ -40,7 +40,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className="h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/Blog/1.jpg"}
+                  src={"/Blog/1.webp"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -65,7 +65,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className="h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/Blog/2.jpg"}
+                  src={"/Blog/2.webp"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -89,7 +89,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className=" h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/Blog/3.jpg"}
+                  src={"/Blog/3.webp"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -113,7 +113,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className="h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/Blog/4.jpg"}
+                  src={"/Blog/4.webp"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -137,7 +137,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className=" h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/Blog/5.jpg"}
+                  src={"/Blog/5.webp"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -161,7 +161,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className="h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/Blog/6.jpg"}
+                  src={"/Blog/6.webp"}
                   alt="Article Image"
                   width={464}
                   height={343}

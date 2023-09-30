@@ -10,10 +10,10 @@ const Hero = ({ num, title, text, bgUrl }: IHero) => {
   return (
     <section>
       <div
-        className={`hero mmobile:group-[.home]:bg-[url('/hero/bg-1.jpg')] ${bgUrl} relative flex flex-col rounded-b-[50px] bg-bottom bg-no-repeat text-white mobile:grid mobile:grid-cols-1 mobile:gap-12 mobile:bg-[#171818] `}
+        className={`hero mmobile:group-[.home]:bg-[url('/hero/bg-1.webp')] ${bgUrl} relative flex flex-col rounded-b-[50px] bg-bottom bg-no-repeat text-white mobile:grid mobile:grid-cols-1 mobile:gap-12 mobile:bg-[#171818] `}
       >
         <div
-          className={`hidden min-h-[543px] rounded-b-[50px] bg-[url('/hero/bg-1.jpg')] bg-auto bg-bottom mobile:group-[.home]:block`}
+          className={`hidden min-h-[543px] rounded-b-[50px] bg-[url('/hero/bg-1.webp')] bg-auto bg-bottom mobile:group-[.home]:block`}
         ></div>
 
         <div className=" container mx-auto grid max-w-[1400px] grow px-[25px]">

@@ -9,7 +9,7 @@ const AboutGradient = () => {
         <Gradient className="absolute left-1/2 top-24 h-full max-h-[490px] w-full max-w-[470px] -translate-x-1/2" />
 
         <div className="mx-auto max-w-[1197px] px-5 ">
-          <TextImageBlock src="/AboutGradient/1.jpg" width={369} height={348}>
+          <TextImageBlock src="/AboutGradient/1.webp" width={369} height={348}>
             <p>
               Smile Art Lab co-founders Riccardo Borgonvo and Yannick Roulet
               both hail from Europe. Ricky is from Meda, a small town near Como

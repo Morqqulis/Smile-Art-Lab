@@ -11,21 +11,21 @@ const About = () => {
         >
           <Image
             className="absolute left-0 top-[0] z-[1] mobile:hidden"
-            src={`/about/1.png`}
+            src={`/about/1.webp`}
             alt="About Image"
             width={199}
             height={199}
           />
           <Image
             className={`mx-auto self-center justify-self-center rounded-[50px] mobile:w-full`}
-            src={`/about/big.jpg`}
+            src={`/about/big.webp`}
             alt="About Image"
             width={446}
             height={446}
           />
           <Image
             className="absolute bottom-[0] right-0 mobile:hidden"
-            src={`/about/3.png`}
+            src={`/about/3.webp`}
             alt="About Image"
             width={222}
             height={222}

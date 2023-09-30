@@ -17,7 +17,7 @@ const Products: NextPage = () => {
   return (
     <>
       <Hero
-        bgUrl="bg-[url('/hero/bg-3.jpg')] bg-cover"
+        bgUrl="bg-[url('/hero/bg-3.webp')] bg-cover"
         title="Headline - Lorem Ipsum Dolor ..."
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure."
       />
@@ -30,7 +30,7 @@ const Products: NextPage = () => {
       />
       <section className="products-section rounded-[95px] bg-gray py-24 mobile:py-20 small:py-12">
         <div className="mx-auto grid max-w-[1260px] gap-5 px-5">
-          <TextImageBlock src="/products/1.jpg" width={370} height={348}>
+          <TextImageBlock src="/products/1.webp" width={370} height={348}>
             <Title className="" title="Crown & Bridge" />
             <p>
               Our restorations are high-end, contemporary and use an array of
@@ -45,7 +45,7 @@ const Products: NextPage = () => {
           </TextImageBlock>
           <TextImageBlock
             className=" flex-row-reverse"
-            src="/products/2.jpg"
+            src="/products/2.webp"
             width={370}
             height={348}
           >
@@ -61,7 +61,7 @@ const Products: NextPage = () => {
               us know what you need, and we’ll make it happen.
             </p>
           </TextImageBlock>
-          <TextImageBlock src="/products/3.jpg" width={370} height={348}>
+          <TextImageBlock src="/products/3.webp" width={370} height={348}>
             <Title className="" title="All On Implants" />
             <p>
               Edentulous patients with removable protheses will benefit greatly
@@ -72,7 +72,7 @@ const Products: NextPage = () => {
           </TextImageBlock>
           <TextImageBlock
             className=" flex-row-reverse"
-            src="/products/4.jpg"
+            src="/products/4.webp"
             width={370}
             height={348}
           >
