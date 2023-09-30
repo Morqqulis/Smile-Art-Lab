@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --mainground-rgb: f, f, f; */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0; */
+  }
+}
+
+
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  /* color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.wrapper>main {
+  flex: 1 1 auto;
+}
+
+@layer components {
+  .btn {
+    @apply flex justify-center items-center text-center bg-gg rounded-[111px] px-[80px] py-[25px] font-extrabold text-xl leading-normal text-white tablets:max-w-lg tablets:mx-auto mobile:max-w-xs mobile:text-base mobile:px-16 mobile:py-[20px] border-[3px] border-transparent hover:scale-[1.05] transition-all hover:border-black hover:text-black hover:bg-white max-w-fit
+  }
+
+  .title {
+    @apply font-bold text-5xl mobile:text-4xl middle:text-3xl;
+  }
+
+  .heading {
+    @apply font-bold text-2xl text-[#13110D] leading-normal;
+  }
+
+  .hero {
+    min-height: calc(100dvh - 149px);
+    background-position: 0 -150px;
+    background-size: 100vw 122%;
+
+    @media (max-width: 767.99px) {
+      background-image: none;
+    }
+
+  }
+
+}
