@@ -13,7 +13,7 @@ const CustomField = <V extends unknown>(props: FieldAttributes<V>) => {
       />
       {/* display the field has error and was already touched */}
       {meta.error && meta.touched && (
-        <label className="label -order-1 pl-5">
+        <label className="label -order-1 pl-5" htmlFor={props.id}>
           <span className="label-text-alt text-sm text-red-600">
             {meta.error}
           </span>

@@ -44,7 +44,7 @@ const Popup: React.FC = () => {
     <div className="fixed bottom-0 left-0 right-0 top-0 -z-50 opacity-0 transition-all duration-500 group-[.popup-open]:z-50 group-[.popup-open]:block group-[.popup-open]:opacity-100">
       <div className="popup absolute left-1/2 top-1/2 grid w-full max-w-[800px] -translate-x-1/2 -translate-y-1/2 gap-5 rounded-[60px] bg-white p-5">
         <div className="flex items-center justify-between gap-1.5 p-[20px]">
-          <h6 className="title">Rx Form</h6>
+          <div className="title">Rx Form</div>
           <button
             onClick={() =>
               document.documentElement.classList.remove("popup-open")

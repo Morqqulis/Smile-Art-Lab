@@ -12,7 +12,11 @@ interface IBtn {
 const Btn = ({ className, text, children, elemType, btnType, href }: IBtn) => {
   if (elemType == "button") {
     return (
-      <button className={`btn ${className && className}`} type={btnType}>
+      <button
+        className={`btn ${className && className}`}
+        type={btnType}
+        title="Button"
+      >
         {!text && "Work With Us"}
         <span>{text}</span>
         {children}

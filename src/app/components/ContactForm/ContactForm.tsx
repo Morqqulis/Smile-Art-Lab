@@ -43,24 +43,34 @@ const ContactForm = () => {
       >
         <Form>
           <div className="mb-2.5 grid grid-cols-2 gap-2.5 middle:grid-cols-1">
-            <CustomField name="name" placeholder="First Name" />
-            <CustomField name="lastName" placeholder="Last Name" />
+            <CustomField name="name" placeholder="First Name" id="name-id" />
+            <CustomField
+              name="lastName"
+              placeholder="Last Name"
+              id="lastName-id"
+            />
           </div>
           <div className="mb-20 grid gap-2.5">
-            <CustomField name="email" placeholder="E-mail Address *" />
             <CustomField
+              name="email"
+              placeholder="E-mail Address *"
+              id="email-id"
+            />
+            <CustomField
+              id="phone-id"
               name="phone"
               placeholder="Phone Number"
               pattern="[0-9]*"
             />
             <CustomField
+              id="message-id"
               className={`min-h-[240px] rounded-[44px]`}
               name="message"
               placeholder="Message"
               as="textarea"
             />
           </div>
-          <button className="btn mx-auto" type="submit">
+          <button className="btn mx-auto" type="submit" title="submit button">
             Submit
           </button>
         </Form>

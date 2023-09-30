@@ -37,7 +37,7 @@ const Hero = ({ num, title, text, bgUrl }: IHero) => {
                 <p>{text}</p>
               )}
             </div>
-            <button className="btn" type="button">
+            <button className="btn" type="button" title="Button">
               Work With Us
             </button>
           </div>

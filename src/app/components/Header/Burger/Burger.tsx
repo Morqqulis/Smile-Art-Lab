@@ -25,7 +25,7 @@ const Burger = () => {
   };
 
   return (
-    <button
+    <button title="burger button"
       className="burger hidden h-6 w-[38px] content-between group-[.menu-open]:content-center tablets:grid"
       type="button"
       onClick={handleMenu}

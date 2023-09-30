@@ -39,6 +39,7 @@ const EmailForm = ({
       <Form className={`${formClassName}`}>
         {data.map((value, index) => (
           <CustomField
+          id="email-input-two"
             key={index}
             className={`${inputClassName}`}
             type={`${type}`}
