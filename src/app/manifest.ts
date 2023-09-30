@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
         short_name: "Smile Art Lab",
         description:
             "Smile Art Lab - It is a test project developed by Achilles on Next js",
-        start_url: "/",
+        start_url: "https://smile-art-lab.vercel.app/",
         display: "standalone",
         background_color: "#fff",
         theme_color: "#fff",
