@@ -40,7 +40,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className="h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/blog/1.jpg"}
+                  src={"/Blog/1.jpg"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -65,7 +65,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className="h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/blog/2.jpg"}
+                  src={"/Blog/2.jpg"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -89,7 +89,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className=" h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/blog/3.jpg"}
+                  src={"/Blog/3.jpg"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -113,7 +113,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className="h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/blog/4.jpg"}
+                  src={"/Blog/4.jpg"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -137,7 +137,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className=" h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/blog/5.jpg"}
+                  src={"/Blog/5.jpg"}
                   alt="Article Image"
                   width={464}
                   height={343}
@@ -161,7 +161,7 @@ const Blog: NextPage = () => {
               <div className="tablets:w-full tablets:max-w-full">
                 <Image
                   className="h-auto w-auto rounded-[60px] tablets:w-full"
-                  src={"/blog/6.jpg"}
+                  src={"/Blog/6.jpg"}
                   alt="Article Image"
                   width={464}
                   height={343}
